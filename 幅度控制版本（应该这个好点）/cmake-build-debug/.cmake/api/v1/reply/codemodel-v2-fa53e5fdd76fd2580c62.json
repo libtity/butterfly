@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "c8t6",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "c8t6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c8t6-Debug-2c96a53552314f808203.json",
+					"name" : "c8t6",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/25795/Desktop/\u4eff\u751f\u8774\u8776/\u5e45\u5ea6\u63a7\u5236\u7248\u672c\uff08\u5e94\u8be5\u8fd9\u4e2a\u597d\u70b9\uff09/cmake-build-debug",
+		"source" : "C:/Users/25795/Desktop/\u4eff\u751f\u8774\u8776/\u5e45\u5ea6\u63a7\u5236\u7248\u672c\uff08\u5e94\u8be5\u8fd9\u4e2a\u597d\u70b9\uff09"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

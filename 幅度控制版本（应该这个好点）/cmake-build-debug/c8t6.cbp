@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c8t6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/25795/Desktop/c8t6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c8t6">
+				<Option output="C:/Users/25795/Desktop/c8t6/cmake-build-debug/c8t6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/25795/Desktop/c8t6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/25795/Desktop/c8t6/CORE"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/HARDWARE/KEY"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/HARDWARE/LED"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/SYSTEM/delay"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/SYSTEM/sys"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/SYSTEM/usart"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/USER"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/HARDWARE"/>
+					<Add directory="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 c8t6"/>
+					<CompileFile command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c8t6/fast">
+				<Option output="C:/Users/25795/Desktop/c8t6/cmake-build-debug/c8t6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/25795/Desktop/c8t6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/25795/Desktop/c8t6/CORE"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/HARDWARE/KEY"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/HARDWARE/LED"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/SYSTEM/delay"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/SYSTEM/sys"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/SYSTEM/usart"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/USER"/>
+					<Add directory="C:/Users/25795/Desktop/c8t6/HARDWARE"/>
+					<Add directory="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 c8t6/fast"/>
+					<CompileFile command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/25795/Desktop/c8t6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/25795/Desktop/c8t6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C_Cpp/mingw-w64_64bit/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/25795/Desktop/c8t6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/CORE/core_cm3.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/CORE/core_cm3.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/HARDWARE/bsp.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/HARDWARE/bsp.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/HARDWARE/ctrl.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/HARDWARE/ctrl.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/HARDWARE/tim.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/HARDWARE/tim.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/misc.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_adc.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_bkp.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_can.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_cec.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_crc.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_dac.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_dbgmcu.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_dma.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_exti.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_flash.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_fsmc.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_gpio.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_i2c.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_iwdg.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_pwr.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_rcc.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_rtc.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_sdio.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_spi.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_tim.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_usart.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/inc/stm32f10x_wwdg.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/misc.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_adc.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_bkp.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_can.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_cec.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_crc.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_dac.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_dbgmcu.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_dma.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_exti.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_flash.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_fsmc.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_gpio.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_i2c.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_iwdg.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_pwr.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_rcc.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_rtc.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_sdio.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_spi.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_tim.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_usart.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/STM32F10x_FWLib/src/stm32f10x_wwdg.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/SYSTEM/delay/delay.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/SYSTEM/delay/delay.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/SYSTEM/sys/sys.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/SYSTEM/sys/sys.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/SYSTEM/usart/usart.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/SYSTEM/usart/usart.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/USER/main.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/USER/stm32f10x_conf.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/USER/stm32f10x_it.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/USER/stm32f10x_it.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/USER/system_stm32f10x.c">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/USER/system_stm32f10x.h">
+			<Option target="c8t6"/>
+		</Unit>
+		<Unit filename="C:/Users/25795/Desktop/c8t6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

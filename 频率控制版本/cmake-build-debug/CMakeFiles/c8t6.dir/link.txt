@@ -1,0 +1,3 @@
+"D:\JB\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\c8t6.dir/objects.a
+D:\C_Cpp\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe qc CMakeFiles\c8t6.dir/objects.a @CMakeFiles\c8t6.dir\objects1
+D:\C_Cpp\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\c8t6.dir/objects.a -Wl,--no-whole-archive -o c8t6.exe -Wl,--out-implib,libc8t6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\c8t6.dir\linkLibs.rsp

@@ -1,0 +1,3 @@
+C:/Users/25795/Desktop/c8t6/cmake-build-debug/CMakeFiles/c8t6.dir
+C:/Users/25795/Desktop/c8t6/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/25795/Desktop/c8t6/cmake-build-debug/CMakeFiles/rebuild_cache.dir

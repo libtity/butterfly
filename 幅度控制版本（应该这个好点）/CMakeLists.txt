@@ -1,0 +1,85 @@
+cmake_minimum_required(VERSION 3.25)
+project(c8t6 C)
+
+set(CMAKE_C_STANDARD 11)
+
+include_directories(CORE)
+include_directories(HARDWARE/KEY)
+include_directories(HARDWARE/LED)
+include_directories(STM32F10x_FWLib/inc)
+include_directories(SYSTEM/delay)
+include_directories(SYSTEM/sys)
+include_directories(SYSTEM/usart)
+include_directories(USER)
+include_directories(HARDWARE)
+
+add_executable(c8t6
+        CORE/core_cm3.c
+        CORE/core_cm3.h
+        STM32F10x_FWLib/inc/misc.h
+        STM32F10x_FWLib/inc/stm32f10x_adc.h
+        STM32F10x_FWLib/inc/stm32f10x_bkp.h
+        STM32F10x_FWLib/inc/stm32f10x_can.h
+        STM32F10x_FWLib/inc/stm32f10x_cec.h
+        STM32F10x_FWLib/inc/stm32f10x_crc.h
+        STM32F10x_FWLib/inc/stm32f10x_dac.h
+        STM32F10x_FWLib/inc/stm32f10x_dbgmcu.h
+        STM32F10x_FWLib/inc/stm32f10x_dma.h
+        STM32F10x_FWLib/inc/stm32f10x_exti.h
+        STM32F10x_FWLib/inc/stm32f10x_flash.h
+        STM32F10x_FWLib/inc/stm32f10x_fsmc.h
+        STM32F10x_FWLib/inc/stm32f10x_gpio.h
+        STM32F10x_FWLib/inc/stm32f10x_i2c.h
+        STM32F10x_FWLib/inc/stm32f10x_iwdg.h
+        STM32F10x_FWLib/inc/stm32f10x_pwr.h
+        STM32F10x_FWLib/inc/stm32f10x_rcc.h
+        STM32F10x_FWLib/inc/stm32f10x_rtc.h
+        STM32F10x_FWLib/inc/stm32f10x_sdio.h
+        STM32F10x_FWLib/inc/stm32f10x_spi.h
+        STM32F10x_FWLib/inc/stm32f10x_tim.h
+        STM32F10x_FWLib/inc/stm32f10x_usart.h
+        STM32F10x_FWLib/inc/stm32f10x_wwdg.h
+        STM32F10x_FWLib/src/misc.c
+        STM32F10x_FWLib/src/stm32f10x_adc.c
+        STM32F10x_FWLib/src/stm32f10x_bkp.c
+        STM32F10x_FWLib/src/stm32f10x_can.c
+        STM32F10x_FWLib/src/stm32f10x_cec.c
+        STM32F10x_FWLib/src/stm32f10x_crc.c
+        STM32F10x_FWLib/src/stm32f10x_dac.c
+        STM32F10x_FWLib/src/stm32f10x_dbgmcu.c
+        STM32F10x_FWLib/src/stm32f10x_dma.c
+        STM32F10x_FWLib/src/stm32f10x_exti.c
+        STM32F10x_FWLib/src/stm32f10x_flash.c
+        STM32F10x_FWLib/src/stm32f10x_fsmc.c
+        STM32F10x_FWLib/src/stm32f10x_gpio.c
+        STM32F10x_FWLib/src/stm32f10x_i2c.c
+        STM32F10x_FWLib/src/stm32f10x_iwdg.c
+        STM32F10x_FWLib/src/stm32f10x_pwr.c
+        STM32F10x_FWLib/src/stm32f10x_rcc.c
+        STM32F10x_FWLib/src/stm32f10x_rtc.c
+        STM32F10x_FWLib/src/stm32f10x_sdio.c
+        STM32F10x_FWLib/src/stm32f10x_spi.c
+        STM32F10x_FWLib/src/stm32f10x_tim.c
+        STM32F10x_FWLib/src/stm32f10x_usart.c
+        STM32F10x_FWLib/src/stm32f10x_wwdg.c
+        SYSTEM/delay/delay.c
+        SYSTEM/delay/delay.h
+        SYSTEM/sys/sys.c
+        SYSTEM/sys/sys.h
+        SYSTEM/usart/usart.c
+        SYSTEM/usart/usart.h
+        USER/main.c
+        USER/stm32f10x_conf.h
+        USER/stm32f10x_it.c
+        USER/stm32f10x_it.h
+        USER/system_stm32f10x.c
+        USER/system_stm32f10x.h
+        HARDWARE/bsp.c
+        HARDWARE/bsp.h
+        HARDWARE/tim.c HARDWARE/tim.h HARDWARE/ctrl.c HARDWARE/ctrl.h
+        HARDWARE/bsp.c
+        HARDWARE/bsp.h
+        HARDWARE/ctrl.c
+        HARDWARE/ctrl.h
+        HARDWARE/tim.c
+        HARDWARE/tim.h)
